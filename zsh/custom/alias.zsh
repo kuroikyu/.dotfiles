@@ -1,6 +1,6 @@
 # Example aliases
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
+alias zshconfig="nvim ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
 
 # Git
 alias gcnss!="git commit -v -s -S --no-edit --amend"
