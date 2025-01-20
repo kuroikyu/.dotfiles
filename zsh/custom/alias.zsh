@@ -3,6 +3,7 @@ alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 
 # Git
+alias lg="lazygit"
 alias gcnss!="git commit -v -s -S --no-edit --amend"
 
 # Reboot to Windows
