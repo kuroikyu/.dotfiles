@@ -108,6 +108,8 @@ case ":$PATH:" in
 esac
 # pnpm end
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
