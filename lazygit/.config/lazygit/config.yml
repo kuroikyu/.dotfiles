@@ -1,0 +1,25 @@
+git:
+  paging:
+    # externalDiffCommand: difft --color=always 
+    colorArg: always
+    pager: delta --dark --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
+
+gui:
+  shortTimeFormat: "15:04"
+  nerdFontsVersion: "3"
+  spinner:
+    frames:
+    - '⠋'
+    - '⠙'
+    - '⠹'
+    - '⠸'
+    - '⠼'
+    - '⠴'
+    - '⠦'
+    - '⠧'
+    - '⠇'
+    - '⠏'
+  rate: 80
+  theme:
+    selectedLineBgColor:
+      - '#40599E'
