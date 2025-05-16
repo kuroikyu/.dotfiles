@@ -1,0 +1,16 @@
+default partial alphanumeric_keys
+
+xkb_symbols "basic" {
+    include "latin"
+    name[Group1]="Coding";
+    key <AD03> { [      e,           E,   dead_acute,      acute ] };
+    key <AB03> { [      c,           C,	dead_cedilla,    cedilla ] };
+    key <AB06> { [      n,           N,   dead_tilde, asciitilde ] };
+    key <LSGT> { [  grave,  asciitilde,   dead_grave, dead_tilde ] };
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys
+    xkb_symbols "sun_type6" {
+    include "sun_vndr/gb(sun_type6)"
+};
